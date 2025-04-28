@@ -15,6 +15,8 @@ UAFX is built on top of [SUTURE](https://github.com/seclab-ucr/SUTURE/tree/main)
 First clone the repo:  
 `~$ git clone https://github.com/uafx/uafx.git uafx`  
 
+Then, plz check out UAFX's z3 dependency files: download the *z3.zip* from [our Github release](https://github.com/uafx/uafx/releases) and follow the instrutions there.
+
 Then setup the LLVM environment for UAFX (it's based on LLVM 14):  
 `~$ cd uafx`  
 `~/uafx$ python setup_uafx.py -o ../uafx_deps`
